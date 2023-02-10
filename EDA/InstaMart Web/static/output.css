@@ -1,0 +1,26 @@
+.product_output{
+    padding-top: 60px;
+}
+.output_box{
+    margin-top: 50px;
+    height: 300px;
+    width: 100%;
+    background-color:white ;
+}
+
+.output_box > ul{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    list-style: none;
+}
+.output_box > ul > li{
+    padding: 8px 15px;
+    border: 2px solid orange;
+    border-radius: 5px;
+}
+.output_box > ul > li:hover{
+    background-color: orange;
+    color: white;
+    cursor: pointer;
+}
